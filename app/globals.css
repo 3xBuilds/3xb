@@ -5,3 +5,15 @@
 .red-grad{
   background: linear-gradient(308deg, #4D0000 -17.07%, #000 112.63%);
 }
+
+.noscr::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}
+
+.noscr {
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+}

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 
 import { useScroll, useTransform } from "framer-motion";
-import GoogleGeminiEffect from "../components/google-gemini-effect";
+import GoogleGeminiEffect from "./ui/google-gemini-effect";
 import { useRef } from 'react';
 
 export default function Home() {
