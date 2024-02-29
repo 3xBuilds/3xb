@@ -25,7 +25,7 @@ export default function GoogleGeminiEffect ({ pathLengths, title, description, c
           `Scroll this component and see the bottom SVG come to life wow this
         works!`}
       </p>
-      <div className="w-full h-[890px] -top-60 md:-top-40  flex items-center justify-center bg-red-transparent absolute ">
+      <div className="w-full h-[890px] -top-60 md:-top-40 max-md:-top-72  flex items-center justify-center bg-red-transparent absolute ">
         <button className="font-bold bg-white/50 backdrop-blur-sm border-white border-2 rounded-full overflow-hidden  mt-28 z-30 md:text-base text-black text-xs w-40 mx-auto ">
           <Image alt='logo' src={logo} width={500} height={500} className=' w-80 scale-125'/>
         </button>
