@@ -20,7 +20,7 @@ export default function GoogleGeminiEffect ({ pathLengths, title, description, c
       <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
         {title || `Build with Aceternity UI`}
       </p>
-      <p className="text-xs md:text-xl font-normal text-center text-red-200/60 mt-4 max-w-lg mx-auto">
+      <p className="text-xs md:text-xl font-normal text-center mb-20 text-red-200/60 mt-4 max-w-lg mx-auto">
         {description ||
           `Scroll this component and see the bottom SVG come to life wow this
         works!`}

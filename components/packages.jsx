@@ -9,7 +9,7 @@ const Packages = () => {
     <h3 className='text-white text-3xl text-center mb-4'>Our Packages</h3>
         <h3 className='text-white/50 text-base text-center w-[60%] mx-auto'>Services we provide catered to your needs</h3>
         <div className='flex flex-col gap-5'>
-          <div className=" my-20 mt-20 w-[85%] mx-auto grid grid-cols-3 max-md:grid-cols-1 max-md:gap-y-10 md:gap-y-20 items-center justify-center ">
+          <div className=" my-20 mt-20 w-[85%] saturate-75 mx-auto grid grid-cols-3 max-md:grid-cols-1 max-md:gap-y-10 md:gap-y-20 items-center justify-center ">
             <PinContainer
               className=""
               containerClassName=""
