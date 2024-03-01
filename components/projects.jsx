@@ -8,9 +8,6 @@ import Image from 'next/image'
 import { useRouter } from 'next/navigation';
 
 const Projects = () => {
-
-  const router = useRouter();
-
   return (
     <>
         <h3 className='text-white text-3xl text-center mb-4 mt-40'>Our Works</h3>
@@ -26,6 +23,7 @@ const Projects = () => {
 }
 
 const ProjectCard = ({title, description, image, link}) => {
+  const router = useRouter();
   return (
     <div className='flex items-center justify-center overflow-y-hidden px-5 h-[400px]'>
     <CardContainer>

@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={audio.className}>{children}</body>
+      <body className={audio.className + "  w-screen overflow-x-hidden noscr "}>{children}</body>
     </html>
   )
 }
