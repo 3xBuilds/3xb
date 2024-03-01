@@ -4,6 +4,10 @@ import { motion, MotionValue } from "framer-motion";
 import React from "react";
 import logo from '@/assets/logo.png'
 import Image from 'next/image'
+import { FaDiscord } from "react-icons/fa6";
+import { IoIosMailOpen } from "react-icons/io";
+
+
 
 
 
@@ -15,18 +19,37 @@ const transition = {
 export default function GoogleGeminiEffect ({ pathLengths, title, description, className}) {
     
   return (
-    <div className={cn("sticky top-64", className)}>
+    <div className={cn("sticky top-64 max-md:top-52 noscr", className)}>
       
-      <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
+      <p className="text-xl md:text-7xl font-normal md:pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
         {title || `Build with Aceternity UI`}
       </p>
-      <p className="text-xs md:text-xl font-normal text-center mb-20 text-red-200/60 mt-4 max-w-lg mx-auto">
+      <div className="text-xs md:text-xl font-normal text-center mb-20 text-red-200/60 md:mt-4 max-w-lg mx-auto">
         {description ||
           `Scroll this component and see the bottom SVG come to life wow this
         works!`}
-      </p>
-      <div className="w-full h-[890px] -top-60 md:-top-40 max-md:-top-72  flex items-center justify-center bg-red-transparent absolute ">
-        <button className="font-bold bg-white/50 backdrop-blur-sm border-white border-2 rounded-full overflow-hidden  mt-28 z-30 md:text-base text-black text-xs w-40 mx-auto ">
+        <div className="flex flex-row gap-3 md:mt-4 max-md:mt-4 max-md:flex-col items-center justify-center">
+      <a className=" relative z-20 cursor-pointer" href="https://discord.gg/BAR43BhupQ" target="_blank">
+        <button className=" cursor-pointer relative w-48 hover:scale-105 transform transition-all duration-300 hover:brightness-150 backdrop-brightness-150 inline-flex h-8 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+          <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full red-grad px-3 py-1 text-xs font-medium text-white backdrop-blur-3xl">
+            <FaDiscord className="mr-2 text-xl" /> Join Our Discord 
+          </span>
+        </button>
+      </a>
+      <h3 className="text-white text-sm  max-md:hidden">or</h3>
+      <a className=" relative z-20 cursor-pointer" href="mailto:3xbuilds@gmail.com" target="_blank">
+        <button className=" cursor-pointer relative w-48 hover:scale-105 transform transition-all duration-300 hover:brightness-150 backdrop-brightness-150 inline-flex h-8 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+          <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full red-grad px-3 py-1 text-xs font-medium text-white backdrop-blur-3xl">
+            <IoIosMailOpen className="mr-2 text-xl" /> Mail us at
+          </span>
+        </button>
+      </a>
+      </div>
+      </div>
+      <div className="w-full h-[890px] -top-60 md:-top-40 max-md:-top-52  flex items-center justify-center bg-red-transparent absolute ">
+        <button className="font-bold bg-white/50 max-md:scale-75 backdrop-blur-sm border-white border-2 rounded-full overflow-hidden  mt-28 z-30 md:text-base text-black text-xs w-40 mx-auto ">
           <Image alt='logo' src={logo} width={500} height={500} className=' w-80 scale-125'/>
         </button>
       </div>
@@ -35,7 +58,7 @@ export default function GoogleGeminiEffect ({ pathLengths, title, description, c
         height="890"
         viewBox="0 0 1440 890"
         xmlns="http://www.w3.org/2000/svg"
-        className=" absolute -top-60  md:-top-40 w-full"
+        className=" absolute -top-60 md:-top-40 max-md:-top-40 w-full"
       >
         <motion.path
           d="M0 663C145.5 663 191 666.265 269 647C326.5 630 339.5 621 397.5 566C439 531.5 455 529.5 490 523C509.664 519.348 521 503.736 538 504.236C553.591 504.236 562.429 514.739 584.66 522.749C592.042 525.408 600.2 526.237 607.356 523.019C624.755 515.195 641.446 496.324 657 496.735C673.408 496.735 693.545 519.572 712.903 526.769C718.727 528.934 725.184 528.395 730.902 525.965C751.726 517.115 764.085 497.106 782 496.735C794.831 496.47 804.103 508.859 822.469 518.515C835.13 525.171 850.214 526.815 862.827 520.069C875.952 513.049 889.748 502.706 903.5 503.736C922.677 505.171 935.293 510.562 945.817 515.673C954.234 519.76 963.095 522.792 972.199 524.954C996.012 530.611 1007.42 534.118 1034 549C1077.5 573.359 1082.5 594.5 1140 629C1206 670 1328.5 662.5 1440 662.5"

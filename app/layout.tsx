@@ -9,7 +9,7 @@ const audio = Audiowide(
 
 export const metadata: Metadata = {
   title: '3xBuilds',
-  description: '',
+  description: ''
 }
 
 export default function RootLayout({
