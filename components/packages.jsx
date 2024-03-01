@@ -34,7 +34,7 @@ const Packages = () => {
             <PinContainer
               className=""
               containerClassName=""
-              title="Contact us to make your own dapp"
+              title="Contact Us to know more"
               href="https://twitter.com/mannupaaji"
             >
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
@@ -54,7 +54,7 @@ const Packages = () => {
             <PinContainer
               className=""
               containerClassName=""
-              title="Contact us to make your own dapp"
+              title="Contact Us to know more"
               href="https://twitter.com/mannupaaji"
             >
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
