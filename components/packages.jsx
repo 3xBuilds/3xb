@@ -13,17 +13,16 @@ const Packages = () => {
             <PinContainer
               className=""
               containerClassName=""
-              title="Contact Us to know more"
+              title={[" + $50 for native token support ", "+ $100 for revealing collection"]}
               href="https://google.com"
             >
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                  Minting dApp: <span className='text-red-600'>$200 - $300</span> 
+                  Minting dApp: <span className='text-red-600'>$200</span> 
                 </h3>
                 <div className="text-base !m-0 !p-0 font-normal">
                   <span className="text-slate-500 text-sm">
-                    + $50 for native token support <br />
-                    + $100 for reveling collection
+                    Launch your NFTs with your custom minting dApp
                   </span>
                 </div>
                 <div className="flex flex-1 w-full rounded-lg mt-4 red-grad brightness-150 items-center justify-center">
@@ -34,16 +33,16 @@ const Packages = () => {
             <PinContainer
               className=""
               containerClassName=""
-              title="Contact Us to know more"
-              href="https://twitter.com/mannupaaji"
+              title={["+ $50 for further customization"]}
+              href="https://google.com"
             >
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                  Staking dApp: <span className='text-red-600'>$400 - $500</span> 
+                  ERC-20 Token: <span className='text-red-600'>$100</span> 
                 </h3>
                 <div className="text-base !m-0 !p-0 font-normal">
                   <span className="text-slate-500 text-sm">
-                    + Rate varies depending upon custom requirements
+                    Currency for your project to unlock unlimited utilities
                   </span>
                 </div>
                 <div className="flex flex-1 w-full rounded-lg mt-4 red-grad brightness-150 items-center justify-center">
@@ -54,16 +53,36 @@ const Packages = () => {
             <PinContainer
               className=""
               containerClassName=""
-              title="Contact Us to know more"
+              title={["+ $50 for hard staking", "+ $50 for further customization"]}
               href="https://twitter.com/mannupaaji"
             >
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                  Burning dApp: <span className='text-red-600'>$200 - $300</span> 
+                  Staking dApp: <span className='text-red-600'>$300</span> 
+                </h3>
+                <div className="text-base !m-0 !p-0 font-normal">
+                  <span className="text-slate-500 text-sm">
+                    Most basic utility, passive reward app for your loyal holders.
+                  </span>
+                </div>
+                <div className="flex flex-1 w-full rounded-lg mt-4 red-grad brightness-150 items-center justify-center">
+                  <Image alt='logo' src={logo} width={500} height={500} className=' w-40 scale-125'/>
+                </div>
+              </div>
+            </PinContainer>
+            <PinContainer
+              className=""
+              containerClassName=""
+              title={["+ 100$ Trait based reward system", "+ $50 for further customization"]}
+              href="https://twitter.com/mannupaaji"
+            >
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                  NFT Burning dApp: <span className='text-red-600'>$150</span> 
                 </h3>
                 <div className="text-base !m-0 !p-0 font-normal">
                   <span className="text-slate-500 ">
-                    + 150$ Trait based reward system
+                    Let holders burn assets for your native tokens
                   </span>
                 </div>
                 <div className="flex flex-1 w-full rounded-lg mt-4 red-grad brightness-150 items-center justify-center">
@@ -74,17 +93,16 @@ const Packages = () => {
             <PinContainer
               className=""
               containerClassName=""
-              title="Contact Us to know more"
+              title={["+ $50 for MATIC raffles", "+ $50 for further customization"]}
               href="https://google.com"
             >
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                  Raffle dApp: <span className='text-red-600'>$400 - $500</span> 
+                  Raffle dApp: <span className='text-red-600'>$400</span> 
                 </h3>
                 <div className="text-base !m-0 !p-0 font-normal">
                   <span className="text-slate-500 text-sm">
-                    + $50 for MATIC raffles <br />
-                    + $50 Unlimited Raffles
+                     Host periodic lotteries in your native token or MATIC
                   </span>
                 </div>
                 <div className="flex flex-1 w-full rounded-lg mt-4 red-grad brightness-150 items-center justify-center">
@@ -95,17 +113,16 @@ const Packages = () => {
             <PinContainer
               className=""
               containerClassName=""
-              title="Contact Us to know more"
+              title={["+ $100 User upload + API costs", "+ $50 Other token support", "+ $50 for further customization"]}
               href="https://google.com"
             >
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                  Marketplace: <span className='text-red-600'>$500 - $600</span> 
+                  Marketplace: <span className='text-red-600'>$500</span> 
                 </h3>
                 <div className="text-base !m-0 !p-0 font-normal">
                   <span className="text-slate-500 text-sm">
-                    + $100 User upload + API costs <br />
-                    + $100 Other token support
+                    Spice things up by allowing holders buy NFTs with your native token
                   </span>
                 </div>
                 <div className="flex flex-1 w-full rounded-lg mt-4 red-grad brightness-150 items-center justify-center">
@@ -116,16 +133,36 @@ const Packages = () => {
             <PinContainer
               className=""
               containerClassName=""
-              title="Contact Us to know more"
+              title={["+ $50 for further customization"]}
               href="https://google.com"
             >
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                  Airdrop dApp: <span className='text-red-600'>$200</span> 
+                  Airdrop dApp: <span className='text-red-600'>$150</span> 
                 </h3>
                 <div className="text-base !m-0 !p-0 font-normal">
                   <span className="text-slate-500 text-sm">
-                  + Rate varies depending upon custom requirements
+                    Automatically collect addresses and send NFTs with a simple click
+                  </span>
+                </div>
+                <div className="flex flex-1 w-full rounded-lg mt-4 red-grad brightness-150 items-center justify-center">
+                  <Image alt='logo' src={logo} width={500} height={500} className=' w-40 scale-125'/>
+                </div>
+              </div>
+            </PinContainer>
+            <PinContainer
+              className=""
+              containerClassName=""
+              title={["+ $50 for further customization"]}
+              href="https://google.com"
+            >
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                  User Profile: <span className='text-red-600'>$600</span> 
+                </h3>
+                <div className="text-base !m-0 !p-0 font-normal">
+                  <span className="text-slate-500 text-sm">
+                    Provide a space for your holders to showcase their NFTs
                   </span>
                 </div>
                 <div className="flex flex-1 w-full rounded-lg mt-4 red-grad brightness-150 items-center justify-center">
