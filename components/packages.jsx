@@ -26,8 +26,9 @@ const Packages = () => {
                   </span>
                 </div>
                 <div className="flex flex-1 w-full rounded-lg mt-4 red-grad brightness-150 p-2 items-center justify-center">
-                  <div className='w-full h-full border-2 border-dashed border-white/20 rounded'></div>
-                  {/* <Image alt='logo' src={logo} width={500} height={500} className=' w-40 scale-125'/> */}
+                  {/* <div className='w-full h-full border-2 border-dashed border-white/20 rounded flex items-center justify-center'> */}
+                  <Image alt='logo' src={logo} width={500} height={500} className=' w-40 scale-125'/>
+                  {/* </div> */}
                   
                 </div>
               </div>
