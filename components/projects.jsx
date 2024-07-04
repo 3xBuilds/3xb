@@ -4,6 +4,7 @@ import banner1 from '../assets/tacoBanner.png'
 import banner2 from '../assets/jlemaBanner.png'
 import banner3 from '../assets/oysterBanner.png'
 import banner4 from '../assets/jimboBanner.png'
+import banner5 from '../assets/jlemaRaffleBanner.png'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation';
 
@@ -17,6 +18,7 @@ const Projects = () => {
           <ProjectCard title="Jlema User Profile" description="A dynamic user profile and leaderboard custom built for the Jlema Community" image={banner2} link="https://jlema-zeta.vercel.app/leaderboard"/>   
           <ProjectCard title="Pearls NFT" description="Revamped the website for Pearls NFT, a community driven NFT project." image={banner3} link="https://oysterbar.tacotribe.shop/"/>
           <ProjectCard title="Jimbo Rumble" description="A battle royale clash between Jimbo holders with a prize pool. (Rumble Royale)" image={banner4} link="https://jimbo-rumble.vercel.app/"/>
+          <ProjectCard title="Jlema Raffle" description="A ticketing system for users to take part in raffles hosted for the Jlema community" image={banner5} link="https://jlema-zeta.vercel.app/raffle"/>
         </div>
     </>
   )
@@ -42,7 +44,7 @@ const ProjectCard = ({title, description, image, link}) => {
           </div>
         </CardItem>
             <CardItem>
-          <div className="flex w-full transform group-hover:scale-105 transition-all duration-300 group-hover rounded-lg mt-4 red-grad overflow-hidden items-center justify-center">
+          <div className="flex w-full h-52 transform group-hover:scale-105 transition-all duration-300 group-hover rounded-lg mt-4 red-grad overflow-hidden items-center justify-center">
               {image && <Image src={image} width={500} height={500} className='h-full object-cover '/>}
           </div>
             </CardItem>
