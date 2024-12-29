@@ -5,6 +5,9 @@ import banner2 from '../assets/jlemaBanner.png'
 import banner3 from '../assets/oysterBanner.png'
 import banner4 from '../assets/jimboBanner.png'
 import banner5 from '../assets/jlemaRaffleBanner.png'
+import banner6 from '../assets/webbieBanner.png'
+import banner7 from '../assets/niftyBanner.png'
+
 import Image from 'next/image'
 import { useRouter } from 'next/navigation';
 
@@ -19,6 +22,8 @@ const Projects = () => {
           <ProjectCard title="Pearls NFT" description="Revamped the website for Pearls NFT, a community driven NFT project." image={banner3} link="https://oysterbar.tacotribe.shop/"/>
           <ProjectCard title="Jimbo Rumble" description="A battle royale clash between Jimbo holders with a prize pool. (Rumble Royale)" image={banner4} link="https://jimbo-rumble.vercel.app/"/>
           <ProjectCard title="Jlema Raffle" description="A ticketing system for users to take part in raffles hosted for the Jlema community" image={banner5} link="https://jlema-zeta.vercel.app/raffle"/>
+          <ProjectCard title="Webbie Social" description="A platform for Content Creators to build their brand and engage their audience" image={banner6} link="https://webbiesocial.com/"/>
+          <ProjectCard title="Nifty Tales" description="A platform to discover, read, and publish illustrated stories on the blockchain." image={banner7} link="https://niftytales.xyz/"/>
         </div>
     </>
   )
