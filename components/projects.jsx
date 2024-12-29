@@ -18,13 +18,13 @@ const Projects = () => {
         <h3 className='text-white text-3xl text-center mb-4 mt-40'>Our Works</h3>
         <h3 className='text-white/50 text-base text-center w-[60%] mx-auto'>Take a look at the current works we have served our clients with</h3>
         <div className='flex flex-row flex-wrap mt-20 w-[85%] max-sm:w-[95%] mx-auto items-center justify-center text-white'>
-          <ProjectCard title="TacoTribe" description="Revamped the website for TacoTribe, a community driven NFT project." image={banner1} link="https://dapps.tacotribe.shop"/> 
+          <ProjectCard title="Webbie Social" description="A platform for Content Creators to build their brand and engage their audience" image={banner6} link="https://webbiesocial.com/"/>
+          <ProjectCard title="Nifty Tales" description="A platform to discover, read, and publish illustrated stories on the blockchain." image={banner7} link="https://niftytales.xyz/"/>
           <ProjectCard title="Jlema User Profile" description="A dynamic user profile and leaderboard custom built for the Jlema Community" image={banner2} link="https://jlema-zeta.vercel.app/leaderboard"/>   
+          <ProjectCard title="TacoTribe" description="Revamped the website for TacoTribe, a community driven NFT project." image={banner1} link="https://dapps.tacotribe.shop"/> 
           <ProjectCard title="Pearls NFT" description="Revamped the website for Pearls NFT, a community driven NFT project." image={banner3} link="https://oysterbar.tacotribe.shop/"/>
           <ProjectCard title="Jimbo Rumble" description="A battle royale clash between Jimbo holders with a prize pool. (Rumble Royale)" image={banner4} link="https://jimbo-rumble.vercel.app/"/>
           <ProjectCard title="Jlema Raffle" description="A ticketing system for users to take part in raffles hosted for the Jlema community" image={banner5} link="https://jlema-zeta.vercel.app/raffle"/>
-          <ProjectCard title="Webbie Social" description="A platform for Content Creators to build their brand and engage their audience" image={banner6} link="https://webbiesocial.com/"/>
-          <ProjectCard title="Nifty Tales" description="A platform to discover, read, and publish illustrated stories on the blockchain." image={banner7} link="https://niftytales.xyz/"/>
         </div>
     </>
   )
