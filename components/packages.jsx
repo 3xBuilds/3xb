@@ -7,7 +7,7 @@ const Packages = () => {
   return (
     <>
     <h3 className='text-white text-3xl text-center mb-4'>Build your dream project</h3>
-        <h3 className='text-white/50 text-base text-center w-[60%] mx-auto'>Let us guide you through you very own NFT project journey</h3>
+        {/* <h3 className='text-white/50 text-base text-center w-[60%] mx-auto'>Let us guide you through you very own NFT project journey</h3>
         <div className='flex flex-col gap-5'>
           <div className=" my-20 mt-20 w-[85%] saturate-75 mx-auto grid grid-cols-3 max-md:grid-cols-1 max-md:gap-y-10 md:gap-y-20 items-center justify-center ">
             <PinContainer
@@ -26,9 +26,8 @@ const Packages = () => {
                   </span>
                 </div>
                 <div className="flex flex-1 w-full rounded-lg mt-4 red-grad brightness-150 p-2 items-center justify-center">
-                  {/* <div className='w-full h-full border-2 border-dashed border-white/20 rounded flex items-center justify-center'> */}
                   <Image alt='logo' src={logo} width={500} height={500} className=' w-40 scale-125'/>
-                  {/* </idv> */}
+
                   
                 </div>
               </div>
@@ -197,7 +196,9 @@ const Packages = () => {
           <h3 className='mx-auto text-center my-5 text-[#DF759C]'>
             <span className='text-white text-xl'>BUILD more, SAVE more </span> <br /> Get awesome discounts for making multiple dapps at once
           </h3>
-        </div>
+        </div> */}
+
+        
     </>
   )
 }
